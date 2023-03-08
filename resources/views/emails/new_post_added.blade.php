@@ -2,7 +2,7 @@
 
 <p>
     Nuovo postr inserito <br>
-    Titolo: {{$lead->title}}
-    Slug: {{$lead->slug}}
+    Titolo: {{$lead->title}} <br>
+    Slug: {{$lead->slug}} <br>
     Contenuto: {{$lead->content}}
 </p>

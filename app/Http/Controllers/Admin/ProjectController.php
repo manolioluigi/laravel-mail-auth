@@ -141,7 +141,7 @@ class ProjectController extends Controller
     public function destroy(Project $post)
     {
 
-        $post->tags()->sync([]);
+        $post->technologies()->sync([]);
 
         $post->delete();
         return redirect()->route('admin.posts.index')->with('message', 'Il post è stato cancellato correttamente');
